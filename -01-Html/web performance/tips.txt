@@ -1,0 +1,14 @@
+Modern HTML has many performance controls:
+
+?? Prioritize a key image: <img fetchpriority=high>
+?? Lazy-load images: <img loading=lazy>
+?? Warm connections to origins: rel=preconnect
+?? Fetch late-found resources: rel=preload
+?? Fetch next-page navigations: rel=prefetch
+
+To learn more:
+- Fetch Priority: https://lnkd.in/gemHH2qZ
+- Lazy-loading: https://lnkd.in/gRVNnw24
+- Preconnect: https://lnkd.in/g-8X-ZJB
+- Preload: https://lnkd.in/gwBNuvzT
+- Prefetch: https://lnkd.in/gjB7xr35

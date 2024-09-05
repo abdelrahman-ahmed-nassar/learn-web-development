@@ -1,0 +1,22 @@
+p {
+margin: 10px 20px 30px 40px;
+display: flex;
+display: none;
+top: auto;
+
+}
+
+
+/* 
+
+trf >> transform
+
+fx >> flex
+
+trs >> transition
+
+bd >> border
+
+bdrs >> border-radius
+
+*/

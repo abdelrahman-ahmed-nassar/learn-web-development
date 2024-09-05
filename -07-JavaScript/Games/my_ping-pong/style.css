@@ -1,0 +1,14 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.score-container {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
