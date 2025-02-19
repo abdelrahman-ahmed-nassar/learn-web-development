@@ -1,0 +1,39 @@
+.stick-man {
+  color: red;
+}
+/* "E" Elements */
+/* 
+elements within the component. They may be seen as child components, i.e. children of the overall parent component.
+ */
+.stick-man__head {
+font-size: 1px;
+}
+
+.stick-man__arm {
+font-size: 1px;
+}
+
+.stick-man__foot {
+font-size: 1px;
+}
+
+.stick-man {
+font-size: 1px;
+}
+
+/* The M in ‘BEM’ stands for Modifiers. */
+
+.stick-man--blue {
+  color: blue;
+}
+
+.stick-man--red {
+  color: red;
+}
+
+.stick-man__head--small {
+  font-size: 20px;
+}
+.stick-man__head--big {
+  font-size: 20px;
+}

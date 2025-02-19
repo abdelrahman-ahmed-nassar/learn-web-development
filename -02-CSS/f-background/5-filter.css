@@ -1,0 +1,9 @@
+/*********************************** filter  *************************/
+div {
+  filter: blur();
+  /* make the photo blur  */
+  filter: grayscale();
+  /* make the photo in black and white  and when hover return it back*/
+  filter: invert();
+  /* make the color inverse */
+}

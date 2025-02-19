@@ -1,0 +1,23 @@
+/*
+initial => mean the default value (initial for display is inline)
+
+revert => to reset a property to the value established by the user-agent style sheet (or by user styles, if any exist).
+
+inherit => force the item to inherit this property even it is not inheritable 
+
+unset => 
+work as inherit if the property is inheritable 
+work as initial if the property is not inheritable
+
+mean don't inherit this property even it's inheritable 
+instead put the default value 
+
+
+
+[property]
+all property => lets you reset all properties to their initial, inherited, reverted, or unset state at once.
+
+*/
+* {
+  all: inherit;
+}

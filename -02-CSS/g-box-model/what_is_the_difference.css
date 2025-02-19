@@ -1,0 +1,9 @@
+
+div {
+  margin-bottom: 10px;
+  /* will push the elements that under my div  */
+  margin-top: -10px;
+  /* will drag my div to the top and the elements under it */
+  margin-bottom: -10px;
+  /* the element itself will not move or be dragged */
+}
