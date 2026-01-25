@@ -2,11 +2,11 @@
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
+console.log(movements);
 // need a callback method
 // WILL NOT return a new array but the first element that satisfies
 
 const firstWithDrawals = movements.find((mov) => mov < 0);
-console.log(movements);
 console.log(firstWithDrawals);
 
 // difference between filter and find
