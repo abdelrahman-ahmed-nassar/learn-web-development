@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Todo app built with React.js" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles.scss" />
+  </head>
+  <body>
+    <main class="App">
+      <header class="Header">
+        <button class="DarkThemeToggle">
+          <span class="DarkThemeToggle__activate">تفعيل</span>
+          <span class="DarkThemeToggle__deactivate">إيقاف</span>
+          الوضع الليلي
+        </button>
+        <div class="SocialLinks">
+          <a href="https://www.facebook.com/m.abusre3" target="_blank" rel="noopener noreferrer">
+            <img class="SocialLinks__img" src="./assets/icon-facebook.svg" alt="facebook icon" />
+          </a>
+          <a href="https://twitter.com/mohamed_abusrea" target="_blank" rel="noopener noreferrer">
+            <img class="SocialLinks__img" src="./assets/icon-twitter.svg" alt="twitter icon" />
+          </a>
+          <a href="https://www.youtube.com/mohamedabusrea" target="_blank" rel="noopener noreferrer">
+            <img class="SocialLinks__img" src="./assets/icon-youtube.svg" alt="youtube icon" />
+          </a>
+          <a href="https://www.github.com/mohamedabusrea" target="_blank" rel="noopener noreferrer">
+            <img class="SocialLinks__img" src="./assets/icon-github.svg" alt="github icon" />
+          </a>
+        </div>
+      </header>
+
+      <div class="App__wrapper">
+        <div class="TaskSearchBar">
+          <label for="search-input" class="TaskSearchBar__label"> قائمة المهام </label>
+          <form class="TaskSearchBar__searchContent">
+            <input
+              id="search-input"
+              class="TaskSearchBar__input"
+              type="text"
+              placeholder="قم بإضافة مهمه..."
+              required
+            />
+            <button class="TaskSearchBar__button">إضافة</button>
+          </form>
+        </div>
+
+        <div class="TaskList">
+          <button class="TaskList__link">
+            <span class="show">إظهار</span><span class="hide">إخفاء</span> المهام المكتملة
+          </button>
+          <ul class="TaskList__list"></ul>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
+
+<!--
+ TODO
+  ✅ Add dark mode functionality
+  ✅ add active state to darkModeToggle button (change color & text)
+  ✅ initData from localStorage
+    ✅ Dark Theme
+    ✅ Task list & Empty state
+  ✅ add task functionality
+    ✅ add task by button
+    ✅ add task by enter key
+  ✅ delete task functionality
+  ✅ complete task functionality
+  ✅ show completed tasks functionality
+  ✅ Accessibility
+  - Suggestions
+    - Edit task by clicking on it
+    - Arrange tasks by drag & drop
+-->

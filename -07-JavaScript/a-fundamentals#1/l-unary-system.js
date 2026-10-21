@@ -23,7 +23,7 @@ console.log(+"15.5"); // 15.5
 console.log(+0xff); // 255
 console.log(+null); // 0
 console.log(+false); // 0
-console.log(+true); / 1
+console.log(+true); // 1
 // return the negative of the number 
 console.log(-100);
 console.log(-"100");

@@ -41,6 +41,7 @@ why to use ?
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
+    "sourceMap: true,
   }
 }
 ```

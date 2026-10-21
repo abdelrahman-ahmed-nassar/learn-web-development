@@ -30,3 +30,9 @@ let randomValue: any = 10; // can make potential errors because No type checking
 // unknown type : similar to any but you can't do anything with it
 let myValue: unknown;
 // should check the type before using it (better than any)
+
+if (typeof myValue == "string") {
+  console.log(myValue.toUpperCase());
+} else if (typeof myValue == "number") {
+  console.log(myValue.toFixed(2));
+}
